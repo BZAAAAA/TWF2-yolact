@@ -1,0 +1,7 @@
+﻿torch>=1.12
+torchvision>=0.13
+numpy>=1.21
+pillow>=9.0
+pyyaml>=6.0
+# optional: FLOPs counting in profile.py
+thop>=0.1.1

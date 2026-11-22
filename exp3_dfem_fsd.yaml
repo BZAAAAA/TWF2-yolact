@@ -1,0 +1,22 @@
+﻿seed: 42
+data:
+  folds: data/folds.json
+  train_list: data/train.txt
+  val_list: data/val.txt
+train:
+  input_size: 550
+  batch: 4
+  epochs: 100
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 0.0005
+  eval_every: 10
+  workers: 4
+model:
+  num_classes: 1
+  mask_dim: 32
+  pretrained: false
+  conf_thresh: 0.05
+  nms_thresh: 0.6
+  max_dets: 100
+  variant: dfem_fsd
